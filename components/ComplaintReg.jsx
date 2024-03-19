@@ -318,7 +318,7 @@ const ComplaintReg = () => {
   ];
 
   const { contract } = useContract(
-    "0x73BE7B3D5c0050dC11F7461CFdC89e096FFeA383",
+    "0x2Dd9E6EE0A0623F5ed879e920654E82b06426907",
     contractABI
   );
   console.log(contract);
