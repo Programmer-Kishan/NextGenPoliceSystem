@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #937dc2;
+  color: black;
+}
+
+@layer components {
+  .header-container {
+    @apply flex justify-between p-2 bg-[#B1B2FF];
+  }
+
+  .header-logo {
+    @apply text-5xl font-bold text-[#0000FF] justify-center items-center;
+  }
+
+  .complaint-container {
+    @apply flex flex-col h-96 items-center justify-center bg-gradient-to-r from-blue-500 to-cyan-500 mt-7 ml-5 rounded-xl border border-b-gray-800;
+  }
+
+  .complaint-title-red {
+    @apply text-5xl font-bold p-1 mb-16  animate-pulse text-white;
+  }
+
+  .complaint-text-margin {
+    @apply text-4xl font-semibold mr-[75px] text-white;
+  }
+
+  .complaint-text-normal {
+    @apply text-4xl font-semibold mr-44 text-white;
+  }
+  .complaint-text-normal2 {
+    @apply text-4xl relative right-8 font-semibold mr-44 text-white;
+  }
+
+  .status-container {
+    @apply flex flex-col justify-center items-center;
+  }
+
+  .status {
+    @apply text-center mt-20 m-2 p-1  bg-[#532cad] rounded-lg border border-b-gray-800;
+  }
+
+  .status-title {
+    @apply text-2xl font-bold p-1 mb-4 text-white;
+  }
+
+  .status-text {
+    @apply text-2xl font-semibold m-1 text-white;
+  }
+
+  .status-input {
+    @apply p-1 m-1 w-[200px] rounded-sm text-black bg-[#fff];
+  }
+
+  .status-render-container {
+    @apply w-[450px] bg-[#532cad] rounded-lg border border-b-gray-800;
+  }
+
+  .status-render-title {
+    @apply text-2xl font-bold p-1 mb-4 underline text-center text-white;
+  }
+
+  .status-render-text {
+    @apply font-semibold ml-2 text-white;
+  }
+
+  .container-input1 {
+    @apply p-1 m-1 relative right-12 rounded-sm text-black bg-[#fff];
+  }
+  .container-input2 {
+    @apply p-1 m-1 relative right-40 rounded-sm text-black bg-[#fff];
+  }
+  .container-input3 {
+    @apply p-1 m-1 relative right-48 rounded-sm text-black bg-[#fff];
+  }
+
+  .getter-container {
+    @apply flex flex-col justify-between p-[5px] m-2  rounded-lg text-white;
+  }
+
+  .getter-card {
+    @apply flex flex-col border w-full items-center pb-1 bg-[#532cad] rounded-lg;
+  }
+
+  .getter-card-title {
+    @apply p-2 font-semibold text-2xl text-white;
+  }
+
+  .getter-card-number {
+    @apply pb-2 text-xl font-semibold text-white;
+  }
+
+  .getter-input {
+    @apply p-1 m-1 w-[200px] rounded-sm text-black bg-[#fff];
+  }
+
+  .button-common {
+    @apply bg-[#0000FF] p-3 rounded-md font-semibold text-white m-2;
+  }
+}

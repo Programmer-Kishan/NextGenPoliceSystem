@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+.mainHeading {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 4rem;
+  background: linear-gradient(90deg, #532cad 21.48%, #69e1f9 86.58%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.answers {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  color: #69e1f9;
+}
